@@ -63,7 +63,6 @@ public class GameOfLife extends JFrame {
         playToggleButton.setName("PlayToggleButton");
         playToggleButton.addActionListener(e -> {
             playing = !playing;
-            System.out.println(playing);
             playToggleButton.setText(playing ? "Pause" : "Play");
         });
         infoPanel.add(playToggleButton);
